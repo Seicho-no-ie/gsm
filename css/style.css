@@ -1,0 +1,70 @@
+/* border-collapse = tira os espaços entre as cedulas */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+table{
+border: 3px solid #000000 !important;
+width: 90vw;
+
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    padding: 2px;
+}
+
+td{
+    font-size: 15px;
+}
+
+#titulo_central{
+    background-color: #b5d9ef;
+    font-weight: 800;
+}
+
+#titulo_direita{
+    font-weight: 500;
+}
+
+#gsm_subsede{
+    text-align: center;
+    font-weight: 700;
+    background-color: yellow;
+}
+
+#linha1_direita{
+    text-align: center;
+}
+
+#objetivo{
+    background-color: #b5d9ef;
+    font-weight: 700;
+}
+
+.text_bege{
+    text-align: center;
+    background-color: #ffe4c4;
+    font-weight: 650;
+}
+
+.vazio{
+    width: 40px;
+}
+
+.text_top{
+    text-align: center;
+    vertical-align: top;
+}
